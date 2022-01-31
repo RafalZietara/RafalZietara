@@ -3,16 +3,13 @@ from re import I
 
 import matplotlib.pyplot as plt
 import numpy as np
-# from numpy.lib import histograms
 from scipy import interpolate, optimize
 import scipy.integrate as odeInt
 from scipy.optimize.minpack import fsolve
 import pint as UOM
-# from sklearn.cluster import k_means
-# from sqlalchemy import false, true
+import CoolProp.CoolProp as CP
 import shellthermo
 import os.path
-import CoolProp.CoolProp as CP
 # http://www.coolprop.org/coolprop/wrappers/Python/index.html
 
 # print("Importing Shellthermo version = %s" % sppts.version)
